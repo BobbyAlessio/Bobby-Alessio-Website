@@ -2,7 +2,7 @@ const articles = [
     {
         title: "How to Learn a Handstand: Building Control",
         category: "Gymnastics Basics",
-        image: "article1.png",
+        image: "handstand.jpg",
         date: "April 15, 2024",
         content: `
             <h4>Starting With the Position</h4>
