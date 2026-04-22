@@ -75,7 +75,7 @@ function openArticle(index) {
         <img src="${article.image}" alt="${article.title}">
         <div class="article-meta">
             <span>${article.category}</span>
-            <span>By Bobby Alessio</span>
+            <span>By Robert Alessio Jr.</span>
             <span>${article.date}</span>
         </div>
     `;
