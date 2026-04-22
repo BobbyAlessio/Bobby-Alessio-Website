@@ -5,7 +5,7 @@ const articles = [
         image: "handstand.jpg",
         date: "April 19, 2026",
         content: `
-            <h4>Starting With the Position</h4>
+            <h4>Starting With the Position:</h4>
             <p>Learning a handstand is about body position, control, and takes patience. Many struggle with learning a handstand because they treat it like a trick instead of a slow skill that takes control.</p>
             
             <p>The first thing I would tell anyone that is trying to learn a handstand is to stop trying to balance before reaching the proper body alignment. If your feet, hips, shoulders, and hands are not all aligned in the right way, the balancing is a lot harder to do. A good way to start this is doing handstands against a wall. This makes you hold the correct body position while not having to worry about balancing. This is important because the fundamentals of gymnastics are based on the right form of a handstand.</p>

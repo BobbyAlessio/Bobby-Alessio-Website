@@ -317,9 +317,10 @@ section {
 
 .modal-body h4 {
     color: var(--accent);
-    margin: 2rem 0 1rem;
-    font-size: 1.5rem;
+    margin: 3rem 0 1.25rem;
+    font-size: 1.6rem;
     font-weight: 800;
+    letter-spacing: -0.5px;
 }
 
 .article-meta {
