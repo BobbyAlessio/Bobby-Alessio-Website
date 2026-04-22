@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio and personal brand profile demonstrating expertise in [Industry].">
+    <title>Professional Profile | Personal Brand</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">PORT<span>FOLIO.</span></a>
+            <div class="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#articles">Articles</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero">
+        <div class="hero-content">
+            <span class="hero-tag">Division I Athlete | IST Major</span>
+            <h1 id="hero-title">Bobby Alessio</h1>
+            <p id="hero-tagline">Leveraging the intersection of technological innovation and elite athletic discipline.</p>
+            <a href="#articles" class="btn">View My Insights</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <div class="about-grid">
+            <div class="profile-img-container">
+                <img src="headshot.png" alt="Professional Headshot" class="profile-img" id="headshot">
+            </div>
+            <div class="about-text">
+                <h3>Athlete. Scholar. Creator.</h3>
+                <p id="bio-p1">I am a student-athlete at Penn State University, majoring in Information Science and Technology. As a member of the Men’s Gymnastics team, I balance the rigorous demands of elite athletics with a passion for digital innovation.</p>
+                <p id="bio-p2">My journey, defined by championships and resilience, is about growing the sport through authentic storytelling. I leverage my IST background to create a unique digital footprint that reflects my professional values and expertise.</p>
+                <div style="margin-top: 2rem;">
+                    <a href="#" class="btn" style="background: transparent; border: 1px solid var(--accent);">Download Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Articles Section -->
+    <section id="articles">
+        <h2 class="section-title">Latest <span>Insights</span></h2>
+        <div class="articles-grid" id="article-list">
+            <!-- Article 1 -->
+            <article class="article-card">
+                <img src="article1.png" alt="NIL Branding" class="article-image top-crop">
+                <div class="article-content">
+                    <span class="article-category">Athlete Branding</span>
+                    <h3>The Evolution of NIL Strategy</h3>
+                    <p>Exploring how name, image, and likeness rights are transforming the modern career paths for collegiate athletes today...</p>
+                    <a href="javascript:void(0)" class="read-more" onclick="openArticle(0)">Read Article &rarr;</a>
+                </div>
+            </article>
+
+            <!-- Article 2 -->
+            <article class="article-card">
+                <img src="article2.png" alt="IST Gymnastics" class="article-image">
+                <div class="article-content">
+                    <span class="article-category">Tech & Performance</span>
+                    <h3>IST on the Mat: Data Optimization</h3>
+                    <p>A comprehensive guide on using information technology to analyze gymnastics metrics and enhance competitive athletic performance...</p>
+                    <a href="javascript:void(0)" class="read-more" onclick="openArticle(1)">Read Article &rarr;</a>
+                </div>
+            </article>
+
+            <!-- Article 3 -->
+            <article class="article-card">
+                <img src="article3.png" alt="Resilience" class="article-image">
+                <div class="article-content">
+                    <span class="article-category">Personal Resilience</span>
+                    <h3>The Anatomy of Athletic Resilience</h3>
+                    <p>How personal branding and the experience of overcoming injuries impact the long-term professional recruitment process for graduates...</p>
+                    <a href="javascript:void(0)" class="read-more" onclick="openArticle(2)">Read Article &rarr;</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Article Detail Modal -->
+    <div id="article-modal" class="modal">
+        <button class="close-modal" onclick="closeArticle()">&times;</button>
+        <div class="modal-content">
+            <div class="modal-header" id="modal-header">
+                <!-- Content injected via JS -->
+            </div>
+            <div class="modal-body" id="modal-body">
+                <!-- Content injected via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact / Footer -->
+    <footer id="contact">
+        <div class="social-links">
+            <a href="#">LinkedIn</a>
+            <a href="#">X</a>
+            <a href="#">GitHub</a>
+        </div>
+        <p class="copyright">&copy; 2024 Professional Brand Profile. Developed for Project 5.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
