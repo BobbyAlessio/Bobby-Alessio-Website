@@ -22,7 +22,7 @@ const articles = [
     {
         title: "What Gymnastics has Taught me About Discipline",
         category: "Discipline & Success",
-        image: "article2.png",
+        image: "article3.png",
         date: "April 18, 2024",
         content: `
             <h4>Progress Comes from Habits</h4>
@@ -44,7 +44,7 @@ const articles = [
     {
         title: "Why Your Brand Matters in NIL College Era",
         category: "NIL & Branding",
-        image: "article3.png",
+        image: "brand.jpg",
         date: "April 20, 2024",
         content: `
             <h4>NIL Changed the Game</h4>
