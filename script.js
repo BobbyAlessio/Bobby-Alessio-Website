@@ -3,7 +3,7 @@ const articles = [
         title: "How to Learn a Handstand: Building Control",
         category: "Gymnastics Basics",
         image: "handstand.jpg",
-        date: "April 15, 2024",
+        date: "April 19, 2026",
         content: `
             <h4>Starting With the Position</h4>
             <p>Learning a handstand is about body position, control, and takes patience. Many struggle with learning a handstand because they treat it like a trick instead of a slow skill that takes control.</p>
@@ -23,7 +23,7 @@ const articles = [
         title: "What Gymnastics has Taught me About Discipline",
         category: "Discipline & Success",
         image: "article3.png",
-        date: "April 18, 2024",
+        date: "April 19, 2026",
         content: `
             <h4>Progress Comes from Habits</h4>
             <p>Throughout the years gymnastics has taught me that performing well is not something that happens at random. It is a product of good habits and the environment you put yourself in. This is not specific to gymnastics though, this is seen in school and even in the professional world.</p>
@@ -45,7 +45,7 @@ const articles = [
         title: "Why Your Brand Matters in NIL College Era",
         category: "NIL & Branding",
         image: "brand.jpg",
-        date: "April 20, 2024",
+        date: "April 19, 2026",
         content: `
             <h4>NIL Changed the Game</h4>
             <p>For student athletes, personal branding is so important. It is how opportunities are created for them. A strong brand helps show people who you are beyond your sport.</p>
@@ -75,8 +75,7 @@ function openArticle(index) {
         <img src="${article.image}" alt="${article.title}">
         <div class="article-meta">
             <span>${article.category}</span>
-            <span>By Robert Alessio Jr.</span>
-            <span>${article.date}</span>
+            <span>By: Robert Alessio Jr. ${article.date}</span>
         </div>
     `;
 
