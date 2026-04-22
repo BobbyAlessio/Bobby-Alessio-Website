@@ -319,6 +319,7 @@ section {
     color: var(--accent);
     margin: 2rem 0 1rem;
     font-size: 1.5rem;
+    font-weight: 800;
 }
 
 .article-meta {
